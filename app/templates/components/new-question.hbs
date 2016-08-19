@@ -14,8 +14,8 @@
     <label for="notes">Add notes:</label>
     {{input value=notes id="notes"}}
   </div>
-  <button {{action 'saveQuestion'}}>Submit</button>
+  <button class="btn btn-default btn-lg" {{action 'saveQuestion'}}>Submit</button>
 </form>
 {{else}}
-<button {{action 'questionFormShow'}}>Ask a Question</button>
+<button class="btn btn-default btn-lg ask-button" {{action 'questionFormShow'}}>ASK NOW!</button>
 {{/if}}

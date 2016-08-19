@@ -8,8 +8,8 @@
     <label for="content">Your Answer:</label>
     {{input value=content id="content"}}
   </div>
-<button {{action 'saveAnswer'}}>Submit Answer</button>
+<button class="btn btn-default btn-lg" {{action 'saveAnswer'}}>Submit Answer</button>
 </form>
 {{else}}
-<button {{action 'answerFormShow'}}>Reply this Question</button>
+<button class="btn btn-default btn-lg" {{action 'answerFormShow'}}>Reply this Question</button>
 {{/if}}

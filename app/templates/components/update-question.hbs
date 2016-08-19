@@ -14,8 +14,8 @@
     <label for="notes">Add notes:</label>
     {{input value=notes id="notes"}}
   </div>
-  <button {{action 'saveQuestionUpdate' question}}>Submit</button>
+  <button class="btn btn-default btn-lg" {{action 'saveQuestionUpdate' question}}>Submit</button>
 </form>
 {{else}}
-<button {{action 'updateFormShow'}}>Update Question</button>
+<button class="btn btn-default btn-lg" {{action 'updateFormShow'}}>Update Question</button>
 {{/if}}
