@@ -1,0 +1,55 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 40em;
+  background: url("https://hd.unsplash.com/photo-1450849608880-6f787542c88a");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 5%;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2%;
+}
+
+p {
+  margin: 2%;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
