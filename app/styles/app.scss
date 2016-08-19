@@ -1,10 +1,15 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+$text-color: #BCB7B1;
+
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
   background: #33373D;
-  color: #BCB7B1;
+  color: $text-color;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -46,6 +51,7 @@ nav {
 
 p {
   margin: 2%;
+  margin-left: 0;
 }
 
 nav a {
@@ -68,19 +74,20 @@ h1 {
    top: 50%;
    left: 50%;
    margin-right: -50%;
-   transform: translate(-50%, -50%)
+   transform: translate(-50%, -50%);
+   font-size: 3em;
 }
 
 .ask-button {
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 45%;
   background: transparent;
   color: white;
 }
 
 .btn-default {
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .ask-button:hover {
@@ -92,6 +99,21 @@ li {
   list-style: none;
 }
 
-a:visited {
-  color: #BCB7B1;
+a, a:hover, a:visited {
+  color: $text-color;
+}
+
+.display {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  width: 20em;
+  height: 2.5em;
+  border-radius: 0.3em;
+  color: #353238;
+  background: lighten($text-color, 15%);
+  border: none;
 }
