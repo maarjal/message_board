@@ -1,3 +1,9 @@
 {{question-detail question=model}}
 
 {{update-question saveQuestionUpdate="saveQuestionUpdate" question=model}}
+
+{{new-answer saveAnswer="saveAnswer" question=model}}
+
+{{#each model.answers as |answer|}}
+  {{answer-tile answer=answer}}
+{{/each}}
