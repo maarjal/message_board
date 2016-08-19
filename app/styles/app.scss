@@ -71,11 +71,11 @@ nav a:visited {
 
 h1 {
   position: absolute;
-   top: 50%;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -50%);
-   font-size: 3em;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
 }
 
 .ask-button {
@@ -106,6 +106,10 @@ a, a:hover, a:visited {
 .display {
   width: 60%;
   margin: 0 auto;
+}
+
+form {
+  margin-top: 2%;
 }
 
 input {

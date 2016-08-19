@@ -1,11 +1,27 @@
 # Message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### Ember.js question and answer message board application. August 19, 2016
+
+#### By Maarja Laineste
+
+## Description
+
+An Ember.js web app, where a user submits a question and other users can respond with answers.
+
+## The project meets following objectives:
+
+* Questions have the content of the question itself, an author and extra notes.
+* Answers have the content of the answer and the author.
+* A navbar with a link to 'home' appears on all pages.
+* Questions are listed on the homepage, with only the question and the name of the author showing.
+* Users can click on a question to view more information.
+* Users can add and edit questions.
+* Users can add answers to a question.
+* Answers are added and viewed on the same page as the question they respond to.
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following things installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
@@ -15,8 +31,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone <https://github.com/maarjal/message_board.git>` this repository
+* change into the project directory
 * `npm install`
 * `bower install`
 
@@ -39,9 +55,21 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Support and contact details
 
-Specify what it takes to deploy your app.
+Phone : 503 501 0870
+Email : maarja.laineste@gmail.com
+
+## Technologies Used
+
+* HTML
+* CSS
+* Bootstrap
+* Sass
+* JavaScript
+* Ember.js
+* Bower
+* Node.js
 
 ## Further Reading / Useful Links
 
@@ -51,3 +79,6 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### License
+
+Copyright (c) 2016 **Maarja Laineste**
