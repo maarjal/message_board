@@ -121,3 +121,7 @@ input {
   background: lighten($text-color, 15%);
   border: none;
 }
+
+.favorites-headline {
+  text-decoration: underline;
+}
