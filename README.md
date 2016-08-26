@@ -10,6 +10,9 @@ An Ember.js web app, where a user submits a question and other users can respond
 
 ## The project meets following objectives:
 
+* Includes a computed property for displaying the number of answers.
+* Customized helper displays a pen icon for questions with no answers.
+* Service is integrated for allowing users to favorite questions.
 * Questions have the content of the question itself, an author and extra notes.
 * Answers have the content of the answer and the author.
 * A navbar with a link to 'home' appears on all pages.
